@@ -1,0 +1,62 @@
+---
+title: "UNICEF Adolescent Health Dashboard Report"
+format: html
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+# Introduction
+
+This report visualizes key UNICEF adolescent health indicators using cleaned datasets. The focus areas include gender-based health disparities, sanitation correlation, time trends, and country-level rankings.
+
+---
+
+# The Disparity in Adolescent Health by Gender
+
+**The Disparity in Adolescent Health by Gender**
+
+Teenage life can be challenging, but for many females worldwide, it’s considerably more so. The gender-based differences in teenage health outcomes are shown in this graphic. Girls suffer obstacles stemming from inequality in many nations, including restricted access to protection, education, and healthcare. In some regions, boys may also be at danger for violence, work, or conflict.
+
+These lines show actual differences in the experiences of young people with regard to opportunity, safety, and health; they are more than just statistics. To close these gaps, we must first understand them.
+
+![Gender Comparison by Country](../figures/bar_chart.png)
+
+---
+
+# Sanitation Access vs Adolescent Health Score
+
+The following scatter plot explores the relationship between sanitation access and adolescent health outcomes. Each point represents a country.
+
+![Sanitation vs Health](../figures/scatterplot_linear_reg_line.png)
+
+---
+
+# Health Score Trend – Ireland
+
+This time-series chart shows how adolescent health scores in Ireland changed over time.
+
+![Health Score Over Time – Ireland](../figures/line_chart.png)
+
+---
+
+# Top 10 Countries by Adolescent Health Score (2016)
+
+This bar chart ranks the top 10 countries based on adolescent health score for the year 2016. Countries with the highest scores are at the top, providing insight into global adolescent well-being.
+
+![Top 10 Countries](../figures/bar_chart.png)
+
+---
+
+# World View of Adolescent Health
+
+A spatial representation showing the geographical distribution of adolescent health indicators.
+
+![World Map](../figures/world_map.png)
+
+---
+
+# Conclusion
+
+Through visual exploration of these indicators, this report emphasizes disparities in adolescent well-being — particularly by gender and sanitation access. These findings support data-driven decision-making for adolescent health improvements globally.
