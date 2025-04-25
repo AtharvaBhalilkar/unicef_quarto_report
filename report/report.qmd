@@ -1,6 +1,12 @@
 ---
 title: "UNICEF Adolescent Health Dashboard Report"
-format: html
+format:
+  html:
+    css: styles.css
+    toc: true
+    number-sections: false
+    page-layout: full
+    theme: flatly
 execute:
   echo: false
   warning: false
@@ -21,7 +27,7 @@ Teenage life can be challenging, but for many females worldwide, it’s consider
 
 These lines show actual differences in the experiences of young people with regard to opportunity, safety, and health; they are more than just statistics. To close these gaps, we must first understand them.
 
-![Gender Comparison by Country](../figures/bar_chart.png)
+![Gender Comparison by Country](figures/bar_chart.png)
 
 ---
 
@@ -29,7 +35,7 @@ These lines show actual differences in the experiences of young people with rega
 
 The following scatter plot explores the relationship between sanitation access and adolescent health outcomes. Each point represents a country.
 
-![Sanitation vs Health](../figures/scatterplot_linear_reg_line.png)
+![Sanitation vs Health](figures/scatterplot_linear_reg_line.png)
 
 ---
 
@@ -37,7 +43,7 @@ The following scatter plot explores the relationship between sanitation access a
 
 This time-series chart shows how adolescent health scores in Ireland changed over time.
 
-![Health Score Over Time – Ireland](../figures/line_chart.png)
+![Health Score Over Time – Ireland](figures/line_chart.png)
 
 ---
 
@@ -45,7 +51,7 @@ This time-series chart shows how adolescent health scores in Ireland changed ove
 
 This bar chart ranks the top 10 countries based on adolescent health score for the year 2016. Countries with the highest scores are at the top, providing insight into global adolescent well-being.
 
-![Top 10 Countries](../figures/bar_chart.png)
+![Top 10 Countries](figures/bar_chart.png)
 
 ---
 
@@ -53,7 +59,7 @@ This bar chart ranks the top 10 countries based on adolescent health score for t
 
 A spatial representation showing the geographical distribution of adolescent health indicators.
 
-![World Map](../figures/world_map.png)
+![World Map](figures/world_map.png)
 
 ---
 
