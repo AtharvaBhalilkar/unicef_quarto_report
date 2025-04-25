@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; 
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -32,16 +32,17 @@ ul.task-list li input[type="checkbox"] {
 <link href="report_files/libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="report_files/libs/bootstrap/bootstrap.min.js"></script>
 <link href="report_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="report_files/libs/bootstrap/bootstrap-c0367b04c37547644fece4185067e4a7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="report_files/libs/bootstrap/bootstrap-e64f0373aecd96a0501e06a3c6cba34c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 
 
+<link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="fullcontent">
+<body>
 
-<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-full">
 
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -50,7 +51,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -67,25 +68,12 @@ ul.task-list li input[type="checkbox"] {
 <p>This report visualizes key UNICEF adolescent health indicators using cleaned datasets. The focus areas include gender-based health disparities, sanitation correlation, time trends, and country-level rankings.</p>
 <hr>
 </section>
-<section id="the-disparity-in-adolescent-health-by-gender" class="level1">
-<h1>The Disparity in Adolescent Health by Gender</h1>
-<p><strong>The Disparity in Adolescent Health by Gender</strong></p>
-<p>Teenage life can be challenging, but for many females worldwide, it’s considerably more so. The gender-based differences in teenage health outcomes are shown in this graphic. Girls suffer obstacles stemming from inequality in many nations, including restricted access to protection, education, and healthcare. In some regions, boys may also be at danger for violence, work, or conflict.</p>
-<p>These lines show actual differences in the experiences of young people with regard to opportunity, safety, and health; they are more than just statistics. To close these gaps, we must first understand them.</p>
+<section id="is-sanitaion-the-missing-link" class="level1">
+<h1>Is Sanitaion the Missing Link</h1>
+<p>Imagine growing up without access to clean water, a safe toilet, or good hygiene. This is everyday life for millions of teenagers. This graph demonstrates the strong correlation between teenage health outcomes and access to sanitation, which is something that many of us take for granted. Youth health is frequently better in nations with greater sanitation coverage. It serves as a reminder that good health begins not in the hospital but rather in the home, school, and the fundamental amenities that maintain safe and hygienic communities. By investing in sanitation, we are safeguarding future generations, not just constructing restrooms.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="figures/bar_chart.png" class="img-fluid figure-img"></p>
-<figcaption>Gender Comparison by Country</figcaption>
-</figure>
-</div>
-<hr>
-</section>
-<section id="sanitation-access-vs-adolescent-health-score" class="level1">
-<h1>Sanitation Access vs Adolescent Health Score</h1>
-<p>The following scatter plot explores the relationship between sanitation access and adolescent health outcomes. Each point represents a country.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="figures/scatterplot_linear_reg_line.png" class="img-fluid figure-img"></p>
+<p><img src="figures/scatterplot_linear_reg_line.png" class="img-fluid figure-img" style="width:75.0%"></p>
 <figcaption>Sanitation vs Health</figcaption>
 </figure>
 </div>
@@ -93,32 +81,32 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="health-score-trend-ireland" class="level1">
 <h1>Health Score Trend – Ireland</h1>
-<p>This time-series chart shows how adolescent health scores in Ireland changed over time.</p>
+<p>The adolescent health score in Ireland has shown a consistent upward trend, reflecting effective national health initiatives. Notably, a steep improvement phase can be seen between 2000 and 2020, followed by a plateau at 4.7–4.8. This flattening could indicate that Ireland has optimized key health parameters. However, the slight dip in the final year suggests emerging challenges, possibly related to mental health or socioeconomic pressures post-pandemic. Continued monitoring and innovative interventions will be key to sustaining progress.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="figures/line_chart.png" class="img-fluid figure-img"></p>
+<p><img src="figures/line_chart.png" class="img-fluid figure-img" style="width:75.0%"></p>
 <figcaption>Health Score Over Time – Ireland</figcaption>
 </figure>
 </div>
 <hr>
 </section>
-<section id="top-10-countries-by-adolescent-health-score-2016" class="level1">
-<h1>Top 10 Countries by Adolescent Health Score (2016)</h1>
-<p>This bar chart ranks the top 10 countries based on adolescent health score for the year 2016. Countries with the highest scores are at the top, providing insight into global adolescent well-being.</p>
+<section id="does-wealth-equal-health" class="level1">
+<h1>Does Wealth equal Health</h1>
+<p>It is simple to believe that young people in affluent nations are inherently healthier. But is that accurate? The relationship between a country’s economic power, as indicated by GDP per capita, and the health of its teenagers is examined in this graphic. Although there is a general trend that higher-income nations perform better, the situation isn’t flawless. Some wealthy countries still struggle to provide for their young, while some lower-income countries do so admirably. What was the takeaway? Although money is helpful, what really matters is how it is used—for equity, healthcare, and education.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="figures/bar_chart.png" class="img-fluid figure-img"></p>
+<p><img src="figures/bar_chart.png" class="img-fluid figure-img" style="width:75.0%"></p>
 <figcaption>Top 10 Countries</figcaption>
 </figure>
 </div>
 <hr>
 </section>
-<section id="world-view-of-adolescent-health" class="level1">
-<h1>World View of Adolescent Health</h1>
-<p>A spatial representation showing the geographical distribution of adolescent health indicators.</p>
+<section id="health-of-adolescents-nationwide" class="level1">
+<h1>Health of Adolescents Nationwide</h1>
+<p>Consider being fifteen years old and having your health results dictated by your birth nation. Adolescent health is not spread equitably, as this map demonstrates. Young people are raised in some regions of the world where they have access to clean water, good healthcare, and the support networks they require. It is far more precarious in others. Real teens work behind each colored nation; some are doing well, while others are just attempting to make ends meet. Considering how unequal the starting line is for millions of teenagers worldwide and the implications for their lives, this image challenges us to think about it.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="figures/world_map.png" class="img-fluid figure-img"></p>
+<p><img src="figures/world_map.png" class="img-fluid figure-img" style="width:75.0%"></p>
 <figcaption>World Map</figcaption>
 </figure>
 </div>
