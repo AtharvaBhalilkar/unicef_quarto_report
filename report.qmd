@@ -1,17 +1,26 @@
 ---
 title: "UNICEF Adolescent Health Dashboard Report"
+author: 
+  - Kompella Vamsi Lalith Satya Krishna (DCU ID - 14468)
 format:
   html:
-    css: ../styles.css
-    number-sections: false
+    theme: united
+    css: styles.css
+    toc: true
+    toc-title: "Contents"
+    toc-depth: 2
     page-layout: full
-    theme: flatly
-    ouyput-file: ../index.html
+    embed-resources: true
+    code-tools: true
 execute:
-  echo: false
   warning: false
   message: false
 ---
+
+# About This Report
+
+The Tableau version of this report can be found in **[Click here](https://public.tableau.com/app/profile/vamsi.lalith.satya.phani.krishna.kompella/viz/BAA1030_kompellavamsilalithsatyaphanikrishna_Unicefdashboard/Dashboard1)**
+
 
 # Introduction
 
@@ -23,7 +32,7 @@ This report visualizes key UNICEF adolescent health indicators using cleaned dat
 
 Imagine growing up without access to clean water, a safe toilet, or good hygiene. This is everyday life for millions of teenagers. This graph demonstrates the strong correlation between teenage health outcomes and access to sanitation, which is something that many of us take for granted. Youth health is frequently better in nations with greater sanitation coverage. It serves as a reminder that good health begins not in the hospital but rather in the home, school, and the fundamental amenities that maintain safe and hygienic communities. By investing in sanitation, we are safeguarding future generations, not just constructing restrooms.
 
-![Sanitation vs Health](figures/scatterplot_linear_reg_line.png){width=75%}
+![Sanitation vs Health](figures/scatterplot_linear_reg_line.png){fig-align="center" width="85%"}
 
 ---
 
